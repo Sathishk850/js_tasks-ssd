@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+
+<script>
+ 
+
+  // truthy or falsy Values:
+
+/*falsy values: 0, ' '(an empty string), NaN, undefined, null
+truthy values: other than falsy values are called as truthy values. 
+
+eg: */
+
+if(5){
+
+  console.log('cart has products')
+}
+
+if (0){
+
+  console.log('this is falsy value') // since this is falsy value it wont give output in browser console. 
+}
+
+  // truthy and falsy value is also works with comparison operator.  
+
+		const cartQuantity = 5; // if this value is 0 then it wont show the output in console. 
+ 
+    // instead of    if(cartQuantity >= 0) {} we can follow below method.
+
+		if (cartQuantity) {  
+			console.log('cart has items');   //output: truthy (since value is 5 which is other than falsy value)
+		} 
+
+     // truthy and falsy value is also works with logical operator.  
+
+		console.log(!0);
+
+  // NaN
+	 
+console.log('text'/5);
+
+ // undefined 
+ 
+ //(it means a variabel which is not defind yet, we can use only let keyword to variable for undefined value.)
+
+ let variable1;
+
+ console.log(variable1);
+
+ const variable2 = undefined; // we can use const keyword  and assign undefined value directly other than let keyword. 
+
+</script>
+
+
+</body>
+</html>
